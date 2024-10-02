@@ -1,0 +1,41 @@
+header {
+    background: #007BFF; /* Header background color */
+    padding: 20px; /* Add padding around the header */
+    color: #fff; /* Text color */
+}
+
+.header-content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.header-pic {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it a circle */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.header-text {
+    text-align: center; /* Align text to the left */
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
